@@ -11,6 +11,7 @@ output: github_document
 [![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/aweek?color=ff69b4)](https://cran.r-project.org/package=aweek)
 [![DOI](https://zenodo.org/badge/172648833.svg)](https://zenodo.org/badge/latestdoi/172648833)
 
+[![R-CMD-check](https://github.com/zkamvar/aweek/workflows/R-CMD-check/badge.svg)](https://github.com/zkamvar/aweek/actions)
 <!-- badges: end -->
 
 # Welcome to the *aweek* package!
@@ -163,7 +164,7 @@ require compiled code.
  - [ISOweek](https://cran.r-project.org/package=ISOweek) converts dates to ISO
    weeks as the "%W" and "%u" formats don't exist in windows
  - [lubridate](https://github.com/tidyverse/lubridate) performs general
-   datetime handling with some auxilary functions that return the week or day
+   datetime handling with some auxiliary functions that return the week or day
    of the week. 
  - [surveillance](https://surveillance.r-forge.r-project.org/) implements ISOWeekYear. 
 
